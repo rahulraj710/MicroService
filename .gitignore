@@ -1,0 +1,28 @@
+ # Ignore target folders in all modules
+**/target/
+
+# Common Java ignores
+*.class
+*.jar
+*.war
+*.ear
+*.logs
+*.iml
+
+# IDE specific files
+.idea/
+.vscode/
+*.iws
+*.ipr
+.settings/
+.project
+.classpath
+.factorypath
+
+# Maven specific
+.mvn/
+mvnw
+mvnw.cmd
+
+# Misc
+.DS_Store
